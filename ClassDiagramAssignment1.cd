@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="GameState">
+    <Position X="10.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAEAAA=</HashCode>
+      <FileName>GameState.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExploringState">
+    <Position X="5.5" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAEAAA=</HashCode>
+      <FileName>ExploringState.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FightState">
+    <Position X="7.75" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAEAAA=</HashCode>
+      <FileName>FightState.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WinState">
+    <Position X="10" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAEAAA=</HashCode>
+      <FileName>WinState.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeathState">
+    <Position X="12.25" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFAAEAAA=</HashCode>
+      <FileName>DeathState.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="sceneManager" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="IRoom">
+    <Position X="3.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAAAAAQAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IRoom.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EmptyRoom">
+    <Position X="0.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAAAAAQAIAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>EmptyRoom.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonsterRoom">
+    <Position X="2.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAEAAAAAQAAAAAAAAAQAIEAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>MonsterRoom.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TreasureRoom">
+    <Position X="5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAAAAAQAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TreasureRoom.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UpgradeRoom">
+    <Position X="7.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAAAAAQAIAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>UpgradeRoom.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Player" Collapsed="true">
+    <Position X="0.5" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>sAAYAQEAAAAAIAAAQAEAQgEAAIBAQAAEAAAgCaAQAQA=</HashCode>
+      <FileName>Player.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerObserver">
+    <Position X="12" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAEAAAAAgAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>PlayerObserver.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Observer">
+    <Position X="13.25" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Observer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EnemyHealthObserver">
+    <Position X="14.25" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAQAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>EnemyHealthObserver.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entity" Collapsed="true">
+    <Position X="3.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAEAAAAAIAAAQAAAQAAAAKAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>Entity.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BruisierEnemy" Collapsed="true">
+    <Position X="7.25" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAEAAAAAIEAAQAAAQAACAIAAAAAAABAACAAAAAA=</HashCode>
+      <FileName>BruisierEnemy.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DefaultEnemy" Collapsed="true">
+    <Position X="5" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAEAAAAAIEAAQAAAQAACAIAAAAAAABAACAAAAAA=</HashCode>
+      <FileName>DefaultEnemy.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DefenderEnemy" Collapsed="true">
+    <Position X="2.75" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAEAAAAAIEAAQAAAQAACAIAAAAAAABAACAAAAAA=</HashCode>
+      <FileName>DefenderEnemy.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameStateManager">
+    <Position X="9" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAIIAAAAAAAAAAAAAEAAAAAAAAAAQ=</HashCode>
+      <FileName>GameStateManager.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="state" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="RoomManager">
+    <Position X="2.75" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAKACAAAAAAAAAAAAAAQAIAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>RoomManager.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="currentRoom" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="DungeonGenerator">
+    <Position X="4.5" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAgACgAAAAAIAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>DungeonGenerator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameManager">
+    <Position X="7.5" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAEBAgAgEBESCCEwAIAEAAIAQAMJAAABAAAABIBQgAA=</HashCode>
+      <FileName>GameManager.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="dungeonGenerator" />
+      <Field Name="roomManager" />
+      <Field Name="stateManager" />
+      <Field Name="sceneManager" />
+      <Field Name="playerSaveManager" />
+      <Field Name="playerObserver" />
+      <Field Name="player" />
+      <Field Name="monsterGenerator" />
+      <Field Name="enemyHealth" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SceneManager">
+    <Position X="16.75" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAACAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>SceneManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerSaveManager">
+    <Position X="10.5" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>PlayerSaveManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonsterGenerator">
+    <Position X="7.5" Y="22" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MonsterGenerator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EnemyFactory" Collapsed="true">
+    <Position X="15.5" Y="4" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="EnemyFactory::EnemyType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>EnemyFactory.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EnemyFactory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RoomFactory" Collapsed="true">
+    <Position X="17.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RoomFactory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="RoomType" Collapsed="true">
+    <Position X="15.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACAAAAAAACAAAAACAAAAAAAAAAAIA=</HashCode>
+      <FileName>RoomTypes.cpp</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

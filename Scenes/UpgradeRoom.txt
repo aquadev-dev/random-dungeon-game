@@ -1,0 +1,28 @@
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+		
+     				 	_____     	 _____
+     				       `.___,'		`.___,'
+      				 	(___)		 (___)
+      				 	<   >		 <   >
+       				  	 ) (		  ) (
+      				 	/`-.\		 /`-.\
+     				       /     \		/     \
+    			       	      / _    _\        / _    _\
+   			      	     :,' `-.' `:      :,' `-.' `:
+   			      	     |         |      |         |
+   			      	     :         ;      :         ;
+    			       	      \       /        \       /
+     				       `.___.'          `.___.'   
+      	
+
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+	You find yourself in what looks to be a potion room, with two glass bottles filled
+		with different cloured liquids. One is labeled strength and the other 
+			health. You can only take one potion. You can also pick 
+				neither and leave the room. Which do you pick?
+
+
+  [STRENGTH POTION - 1] [HEALTH POTION - 2] [LEAVE TO PREVIOUS ROOM - 3] [LEAVE TO NEXT ROOM - 4] 
+
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
