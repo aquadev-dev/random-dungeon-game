@@ -60,172 +60,172 @@
     <ClCompile Include="Assignment 1 OOSD NLB.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="GameState.cpp">
-      <Filter>Source Files\States</Filter>
+    <ClCompile Include="Source Files\Entities\BruisierEnemy.cpp">
+      <Filter>Source Files\Entities</Filter>
     </ClCompile>
-    <ClCompile Include="ExploringState.cpp">
-      <Filter>Source Files\States</Filter>
+    <ClCompile Include="Source Files\Entities\DefaultEnemy.cpp">
+      <Filter>Source Files\Entities</Filter>
     </ClCompile>
-    <ClCompile Include="FightState.cpp">
-      <Filter>Source Files\States</Filter>
+    <ClCompile Include="Source Files\Entities\DefenderEnemy.cpp">
+      <Filter>Source Files\Entities</Filter>
     </ClCompile>
-    <ClCompile Include="DeathState.cpp">
-      <Filter>Source Files\States</Filter>
+    <ClCompile Include="Source Files\Entities\Entity.cpp">
+      <Filter>Source Files\Entities</Filter>
     </ClCompile>
-    <ClCompile Include="WinState.cpp">
-      <Filter>Source Files\States</Filter>
+    <ClCompile Include="Source Files\Entities\Player.cpp">
+      <Filter>Source Files\Entities</Filter>
     </ClCompile>
-    <ClCompile Include="IRoom.cpp">
-      <Filter>Source Files\Rooms</Filter>
-    </ClCompile>
-    <ClCompile Include="EmptyRoom.cpp">
-      <Filter>Source Files\Rooms</Filter>
-    </ClCompile>
-    <ClCompile Include="UpgradeRoom.cpp">
-      <Filter>Source Files\Rooms</Filter>
-    </ClCompile>
-    <ClCompile Include="MonsterRoom.cpp">
-      <Filter>Source Files\Rooms</Filter>
-    </ClCompile>
-    <ClCompile Include="TreasureRoom.cpp">
-      <Filter>Source Files\Rooms</Filter>
-    </ClCompile>
-    <ClCompile Include="RoomFactory.cpp">
+    <ClCompile Include="Source Files\Factories\EnemyFactory.cpp">
       <Filter>Source Files\Factories</Filter>
     </ClCompile>
-    <ClCompile Include="RoomTypes.cpp">
-      <Filter>Source Files\Rooms</Filter>
-    </ClCompile>
-    <ClCompile Include="Player.cpp">
-      <Filter>Source Files\Entities</Filter>
-    </ClCompile>
-    <ClCompile Include="Observer.cpp">
-      <Filter>Source Files\Observers</Filter>
-    </ClCompile>
-    <ClCompile Include="Entity.cpp">
-      <Filter>Source Files\Entities</Filter>
-    </ClCompile>
-    <ClCompile Include="PlayerObserver.cpp">
-      <Filter>Source Files\Observers</Filter>
-    </ClCompile>
-    <ClCompile Include="DefaultEnemy.cpp">
-      <Filter>Source Files\Entities</Filter>
-    </ClCompile>
-    <ClCompile Include="BruisierEnemy.cpp">
-      <Filter>Source Files\Entities</Filter>
-    </ClCompile>
-    <ClCompile Include="EnemyHealthObserver.cpp">
-      <Filter>Source Files\Observers</Filter>
-    </ClCompile>
-    <ClCompile Include="DefenderEnemy.cpp">
-      <Filter>Source Files\Entities</Filter>
-    </ClCompile>
-    <ClCompile Include="EnemyFactory.cpp">
+    <ClCompile Include="Source Files\Factories\RoomFactory.cpp">
       <Filter>Source Files\Factories</Filter>
     </ClCompile>
-    <ClCompile Include="GameManager.cpp">
-      <Filter>Source Files\Managers</Filter>
-    </ClCompile>
-    <ClCompile Include="GameStateManager.cpp">
-      <Filter>Source Files\Managers</Filter>
-    </ClCompile>
-    <ClCompile Include="SceneManager.cpp">
-      <Filter>Source Files\Managers</Filter>
-    </ClCompile>
-    <ClCompile Include="PlayerSaveManager.cpp">
-      <Filter>Source Files\Managers</Filter>
-    </ClCompile>
-    <ClCompile Include="RoomManager.cpp">
-      <Filter>Source Files\Managers</Filter>
-    </ClCompile>
-    <ClCompile Include="DungeonGenerator.cpp">
+    <ClCompile Include="Source Files\Generators\DungeonGenerator.cpp">
       <Filter>Source Files\Generators</Filter>
     </ClCompile>
-    <ClCompile Include="MonsterGenerator.cpp">
+    <ClCompile Include="Source Files\Generators\MonsterGenerator.cpp">
       <Filter>Source Files\Generators</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\Managers\GameManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\Managers\GameStateManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\Managers\PlayerSaveManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\Managers\RoomManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\Managers\SceneManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\Observers\EnemyHealthObserver.cpp">
+      <Filter>Source Files\Observers</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\Observers\Observer.cpp">
+      <Filter>Source Files\Observers</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\Observers\PlayerObserver.cpp">
+      <Filter>Source Files\Observers</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\Rooms\EmptyRoom.cpp">
+      <Filter>Source Files\Rooms</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\Rooms\IRoom.cpp">
+      <Filter>Source Files\Rooms</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\Rooms\MonsterRoom.cpp">
+      <Filter>Source Files\Rooms</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\Rooms\RoomTypes.cpp">
+      <Filter>Source Files\Rooms</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\Rooms\TreasureRoom.cpp">
+      <Filter>Source Files\Rooms</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\Rooms\UpgradeRoom.cpp">
+      <Filter>Source Files\Rooms</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\GameState\DeathState.cpp">
+      <Filter>Source Files\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\GameState\ExploringState.cpp">
+      <Filter>Source Files\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\GameState\FightState.cpp">
+      <Filter>Source Files\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\GameState\GameState.cpp">
+      <Filter>Source Files\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\GameState\WinState.cpp">
+      <Filter>Source Files\States</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="GameState.h">
-      <Filter>Header Files\States</Filter>
+    <ClInclude Include="Header Files\Entities\BruisierEnemy.h">
+      <Filter>Header Files\Entities</Filter>
     </ClInclude>
-    <ClInclude Include="FightState.h">
-      <Filter>Header Files\States</Filter>
+    <ClInclude Include="Header Files\Entities\DefaultEnemy.h">
+      <Filter>Header Files\Entities</Filter>
     </ClInclude>
-    <ClInclude Include="ExploringState.h">
-      <Filter>Header Files\States</Filter>
+    <ClInclude Include="Header Files\Entities\DefenderEnemy.h">
+      <Filter>Header Files\Entities</Filter>
     </ClInclude>
-    <ClInclude Include="DeathState.h">
-      <Filter>Header Files\States</Filter>
+    <ClInclude Include="Header Files\Entities\Entity.h">
+      <Filter>Header Files\Entities</Filter>
     </ClInclude>
-    <ClInclude Include="WinState.h">
-      <Filter>Header Files\States</Filter>
+    <ClInclude Include="Header Files\Entities\Player.h">
+      <Filter>Header Files\Entities</Filter>
     </ClInclude>
-    <ClInclude Include="IRoom.h">
-      <Filter>Header Files\Rooms</Filter>
-    </ClInclude>
-    <ClInclude Include="EmptyRoom.h">
-      <Filter>Header Files\Rooms</Filter>
-    </ClInclude>
-    <ClInclude Include="UpgradeRoom.h">
-      <Filter>Header Files\Rooms</Filter>
-    </ClInclude>
-    <ClInclude Include="MonsterRoom.h">
-      <Filter>Header Files\Rooms</Filter>
-    </ClInclude>
-    <ClInclude Include="TreasureRoom.h">
-      <Filter>Header Files\Rooms</Filter>
-    </ClInclude>
-    <ClInclude Include="RoomFactory.h">
+    <ClInclude Include="Header Files\Factories\EnemyFactory.h">
       <Filter>Header Files\Factories</Filter>
     </ClInclude>
-    <ClInclude Include="Player.h">
-      <Filter>Header Files\Entities</Filter>
-    </ClInclude>
-    <ClInclude Include="DefaultEnemy.h">
-      <Filter>Header Files\Entities</Filter>
-    </ClInclude>
-    <ClInclude Include="Entity.h">
-      <Filter>Header Files\Entities</Filter>
-    </ClInclude>
-    <ClInclude Include="BruisierEnemy.h">
-      <Filter>Header Files\Entities</Filter>
-    </ClInclude>
-    <ClInclude Include="EnemyHealthObserver.h">
-      <Filter>Header Files\Observers</Filter>
-    </ClInclude>
-    <ClInclude Include="Observer.h">
-      <Filter>Header Files\Observers</Filter>
-    </ClInclude>
-    <ClInclude Include="PlayerObserver.h">
-      <Filter>Header Files\Observers</Filter>
-    </ClInclude>
-    <ClInclude Include="DefenderEnemy.h">
-      <Filter>Header Files\Entities</Filter>
-    </ClInclude>
-    <ClInclude Include="EnemyFactory.h">
+    <ClInclude Include="Header Files\Factories\RoomFactory.h">
       <Filter>Header Files\Factories</Filter>
     </ClInclude>
-    <ClInclude Include="GameManager.h">
-      <Filter>Header Files\Managers</Filter>
-    </ClInclude>
-    <ClInclude Include="GameStateManager.h">
-      <Filter>Header Files\Managers</Filter>
-    </ClInclude>
-    <ClInclude Include="SceneManager.h">
-      <Filter>Header Files\Managers</Filter>
-    </ClInclude>
-    <ClInclude Include="PlayerSaveManager.h">
-      <Filter>Header Files\Managers</Filter>
-    </ClInclude>
-    <ClInclude Include="RoomManager.h">
-      <Filter>Header Files\Managers</Filter>
-    </ClInclude>
-    <ClInclude Include="DungeonGenerator.h">
+    <ClInclude Include="Header Files\Generators\DungeonGenerator.h">
       <Filter>Header Files\Generators</Filter>
     </ClInclude>
-    <ClInclude Include="MonsterGenerator.h">
+    <ClInclude Include="Header Files\Generators\MonsterGenerator.h">
       <Filter>Header Files\Generators</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Managers\GameManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Managers\GameStateManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Managers\PlayerSaveManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Managers\RoomManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Managers\SceneManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Observers\EnemyHealthObserver.h">
+      <Filter>Header Files\Observers</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Observers\Observer.h">
+      <Filter>Header Files\Observers</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Observers\PlayerObserver.h">
+      <Filter>Header Files\Observers</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Rooms\EmptyRoom.h">
+      <Filter>Header Files\Rooms</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Rooms\IRoom.h">
+      <Filter>Header Files\Rooms</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Rooms\MonsterRoom.h">
+      <Filter>Header Files\Rooms</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Rooms\TreasureRoom.h">
+      <Filter>Header Files\Rooms</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Rooms\UpgradeRoom.h">
+      <Filter>Header Files\Rooms</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\GameState\DeathState.h">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\GameState\ExploringState.h">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\GameState\FightState.h">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\GameState\GameState.h">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\GameState\WinState.h">
+      <Filter>Header Files\States</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
