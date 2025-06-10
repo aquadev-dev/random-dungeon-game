@@ -31,3 +31,10 @@
 Here are some of the UML diagrams that were produced for the planning of this project:
 
 <h3>Activity Diagram</h3>
+<img src="/Diagrams/Whole Activity Diagram.png">
+<h3>Use Case Diagram</h3>
+<img src="/Diagrams/Use Case Diagram For Game NLB.png">
+<h3>Sequence Diagram</h3>
+<img src="/Diagrams/Sequence Diagram for Game.png">
+<h3>Class Diagram</h3>
+<img src="/Diagrams/ClassDiagramAssignment1.png">
